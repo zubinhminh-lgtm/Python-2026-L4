@@ -18,7 +18,9 @@ def ex5():
     colors = ["blue", "yellow", "black", "red", "white"]
     color = input("What is your favorite color? ")
     for i in range(0, len(colors)):
-        if color.lower() == colors[i]
+        if color.lower() == colors[i]:
+            print(f"Your color is at index {i+1} in my list")
+            return
 def ex6():
     print("range1:", list(range(7)))
     print("range2:", list(range(1, 11, 3)))
