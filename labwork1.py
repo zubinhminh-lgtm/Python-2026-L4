@@ -59,5 +59,7 @@ def ex12():
     n = int(input("Enter cols (n): "))
     print_pattern(m, n)
 
-if __name__ == "__main__":
+def main():
+    #chạy bài nào thì chỉnh số ex?() bên dưới
     ex1()
+main()
