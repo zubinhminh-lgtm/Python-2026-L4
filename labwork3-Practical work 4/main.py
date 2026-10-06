@@ -1,5 +1,5 @@
 import curses
-from domains import Student, Course, Mark
+from Domain import Student, Course, Mark
 import input as input_mod
 import output as output_mod
 
